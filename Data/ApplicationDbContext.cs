@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using nav_eshop3.Models;
 
 namespace nav_eshop3.Data
 {
@@ -9,5 +10,6 @@ namespace nav_eshop3.Data
             : base(options)
         {
         }
+        public DbSet<SalesCustomer> SalesCustomers { get; set; }
     }
 }
