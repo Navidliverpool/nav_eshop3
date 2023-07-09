@@ -11,6 +11,7 @@ namespace nav_eshop3.Data
         {
         }
         public DbSet<SalesCustomer> SalesCustomers { get; set; }
-        public DbSet<nav_eshop3.Models.Product>? Product { get; set; }
+        public DbSet<Product>? Products { get; set; }
+        public DbSet<Category>? Categories { get; set; }
     }
 }

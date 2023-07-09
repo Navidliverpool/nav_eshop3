@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using nav_eshop3.Data;
 using nav_eshop3.Models;
+using nav_eshop3.ViewModels;
 
 namespace nav_eshop3.Controllers
 {
@@ -22,19 +23,19 @@ namespace nav_eshop3.Controllers
         // GET: Products
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Product.Include(p => p.Category);
+            var applicationDbContext = _context.Products.Include(p => p.Category);
             return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Products/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Product == null)
+            if (id == null || _context.Products == null)
             {
                 return NotFound();
             }
 
-            var product = await _context.Product
+            var product = await _context.Products
                 .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.ProductId == id);
             if (product == null)
@@ -49,7 +50,7 @@ namespace nav_eshop3.Controllers
         public IActionResult Create()
         {
 
-            ViewData["CategoryId"] = new SelectList(_context.Set<Category>(), "CategoryId", "CategoryId");
+            ViewData["CategoryId"] = new SelectList(_context.Set<Category>(), "CategoryId", "Name");
             return View();
         }
 
@@ -58,27 +59,34 @@ namespace nav_eshop3.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,Name,Brand,Price,CategoryId")] Product product)
+        public async Task<IActionResult> Create([Bind("ProductId,Name,Brand,Price,CategoryId")] ProductVM productVM)
         {
+            var product = new Product
+            {
+                Name = productVM.Name,
+                Brand = productVM.Brand,
+                Price = productVM.Price,
+                CategoryId = productVM.CategoryId
+            };
             if (ModelState.IsValid)
             {
                 _context.Add(product);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Set<Category>(), "CategoryId", "CategoryId", product.CategoryId);
+            ViewData["CategoryId"] = new SelectList(_context.Set<Category>(), "CategoryId", "Name", product.CategoryId);
             return View(product);
         }
 
         // GET: Products/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Product == null)
+            if (id == null || _context.Products == null)
             {
                 return NotFound();
             }
 
-            var product = await _context.Product.FindAsync(id);
+            var product = await _context.Products.FindAsync(id);
             if (product == null)
             {
                 return NotFound();
@@ -126,12 +134,12 @@ namespace nav_eshop3.Controllers
         // GET: Products/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Product == null)
+            if (id == null || _context.Products == null)
             {
                 return NotFound();
             }
 
-            var product = await _context.Product
+            var product = await _context.Products
                 .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.ProductId == id);
             if (product == null)
@@ -147,14 +155,14 @@ namespace nav_eshop3.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Product == null)
+            if (_context.Products == null)
             {
                 return Problem("Entity set 'ApplicationDbContext.Product'  is null.");
             }
-            var product = await _context.Product.FindAsync(id);
+            var product = await _context.Products.FindAsync(id);
             if (product != null)
             {
-                _context.Product.Remove(product);
+                _context.Products.Remove(product);
             }
             
             await _context.SaveChangesAsync();
@@ -163,7 +171,7 @@ namespace nav_eshop3.Controllers
 
         private bool ProductExists(int id)
         {
-          return (_context.Product?.Any(e => e.ProductId == id)).GetValueOrDefault();
+          return (_context.Products?.Any(e => e.ProductId == id)).GetValueOrDefault();
         }
     }
 }
