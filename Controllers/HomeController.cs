@@ -18,6 +18,13 @@ namespace nav_eshop3.Controllers
             return View();
         }
 
+        public IActionResult Search(string keyword)
+        {
+            // Perform the search based on the keyword
+            // Return the search results to a view
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

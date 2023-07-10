@@ -1,8 +1,120 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model nav_eshop3.ViewModels.HomeVM
+@{
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .title {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            color: #888;
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .search-input {
+            width: 300px;
+            padding: 10px;
+            border: none;
+            border-radius: 50px;
+            font-size: 16px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-button:hover {
+            background-color: #0056b3;
+        }
+
+        .main-photo {
+            width: 400px;
+            height: 200px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .secondary-photo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            right: 0px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .message {
+            font-size: 16px;
+            margin-top: 20px;
+            color: #888;
+        }
+
+        .message2 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Welcome to <strong>24 Hours</strong></h1>
+
+        <div class="subtitle">
+            <form asp-action="Search" method="get" class="search-container">
+                <input type="text" name="keyword" value="@Model?.Keyword" class="search-input" placeholder="Enter your search term" />
+                <button type="submit" class="search-button">Search</button>
+            </form>
+        </div>
+        <h2 class="message2">Discover a World of New and Used Products!</h2>
+
+        <img src="~/images/2560x1600-5393915-sign-light-neon-fluorescent-open-urban-city-store-shop-outdoors-type-typography-design-red-blue-orange-24hr-public-domain-images.jpg" alt="Main Photo" class="main-photo">
+
+        <img src="~/images/—Pngtree—open 24 hours sign design_8774969.png" alt="Secondary Photo" class="secondary-photo">
+
+        <p class="message">This website is currently in the process of being developed</p>
+    </div>
+</body>
+</html>

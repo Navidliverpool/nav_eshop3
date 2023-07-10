@@ -4,50 +4,130 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<style>
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+    }
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Brand)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Brand)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category.CategoryId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .product-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .product-item {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: #f7f7f7;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .product-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-image {
+        flex: 0 0 80px;
+        margin-right: 20px;
+    }
+
+    .product-image img {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .product-details {
+        flex: 1;
+    }
+
+    .product-label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .product-name {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .product-brand {
+        color: #888;
+        margin-bottom: 5px;
+    }
+
+    .product-price {
+        font-size: 16px;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+    .product-actions a {
+        display: inline-block;
+        margin-right: 10px;
+        padding: 6px 12px;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    .product-actions a:hover {
+        background-color: #0056b3;
+    }
+
+    .btn-create {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    .btn-create:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<div class="container">
+    @*<a asp-action="Create" class="btn-create">Create New</a>*@
+    <h1 class="title">Product List</h1>
+
+    <ul class="product-list">
+        @foreach (var item in Model)
+        {
+            <li class="product-item">
+                <div class="product-details">
+                    <div class="product-name">Name: @item.Name</div>
+                    <div class="product-brand">Brand: @item.Brand</div>
+                    <div class="product-price">Price: £@item.Price</div>
+                    <div class="product-label">Category: @item.Category.CategoryId</div>
+                </div>
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/80" alt="@item.Name" />
+                </div>
+                <div class="product-actions">
+                    <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.ProductId">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+                </div>
+            </li>
+        }
+    </ul>
+</div>
