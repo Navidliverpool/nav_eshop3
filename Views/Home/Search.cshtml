@@ -1,0 +1,165 @@
+﻿@model List<nav_eshop3.ViewModels.ProductVM>
+
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<style>
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .product-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .product-item {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: #f7f7f7;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .product-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-image {
+        flex: 0 0 80px;
+        margin-right: 20px;
+    }
+
+    .product-image img {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .product-details {
+        flex: 1;
+    }
+
+    .product-label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .product-name {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .product-brand {
+        color: #888;
+        margin-bottom: 5px;
+    }
+
+    .product-price {
+        font-size: 16px;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+    .product-actions a {
+        display: inline-block;
+        margin-right: 10px;
+        padding: 6px 12px;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    .product-actions a:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<div class="container">
+    <h1 class="title">Search Results</h1>
+
+    @if (Model.Count > 0)
+    {
+        <ul class="product-list">
+            @foreach (var product in Model)
+            {
+                <li class="product-item">
+                    <div class="product-details">
+                        <div class="product-name">Name: @product.Name</div>
+                        <div class="product-brand">Brand: @product.Brand</div>
+                        <div class="product-price">Price: £@product.Price</div>
+                        <div class="product-label">Category Id: @product.CategoryId</div>
+                    </div>
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/80" alt="@product.Name" />
+                    </div>
+                    <div class="product-actions">
+                        <a href="#" class="btn-edit">Edit</a>
+                        <a href="#" class="btn-details">Details</a>
+                        <a href="#" class="btn-delete">Delete</a>
+                    </div>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No search results found.</p>
+    }
+</div>
+
+
+
+@*@model List<nav_eshop3.ViewModels.ProductVM>
+
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<h1>Search Results</h1>
+
+@if (Model.Count > 0)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Brand</th>
+                <th>Price</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Brand</td>
+                    <td>@product.Price</td>
+                    <td>@product.CategoryId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No search results found.</p>
+}
+*@
