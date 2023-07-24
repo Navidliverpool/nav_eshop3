@@ -14,5 +14,13 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+/*#my-custom-font {
+    font-family: 'Gruppo', sans-serif;
+}*/
+
+* {
+    font-family: 'Gruppo', sans-serif;
 }

@@ -1,0 +1,6 @@
+﻿/* Define the @font-face rule to link the Gruppo font */
+@font-face {
+    font-family: 'Gruppo';
+    src: url('../fonts/Gruppo-Regular.ttf') format('truetype');
+    /* Add other font variations (e.g., italic, bold-italic) if available */
+}

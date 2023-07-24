@@ -9,34 +9,34 @@
 
     @if (Model.Count > 0)
     {
-             <table>
-            <thead>
-                <tr>
-                    <th>Product Name</th>
-                    <th>Quantity</th>
-                    <th>Price</th>
-                    <th>Subtotal</th>
-                    <th></th>
-                </tr>
+        <table>
+            <thead id="cartTableHead">
+                @if (Model.Count > 0)
+                {
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Subtotal</th>
+                        <th></th>
+                    </tr>
+                }
             </thead>
-        <tbody>
+            <tbody>
                 @foreach (var item in Model)
                 {
-                    if (item.Quantity > 0) // Check if item quantity is greater than 0
-                    {
-                        <tr>
-                            <td>@item.ProductName</td>
-                            <td>@item.Quantity</td>
-                            <td>@item.Price</td>
-                            <td>@(item.Quantity * item.Price)</td>
-                            <td>
-                                <a asp-action="UpdateCartItem" asp-route-productId="@item.ProductId"
-                                   class="btn btn-primary">Update</a>
-                                <a asp-action="RemoveCartItem" asp-route-productId="@item.ProductId"
-                                   class="btn btn-danger">Remove</a>
-                            </td>
-                        </tr>
-                    }
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Price</td>
+                        <td>@(item.Quantity * item.Price)</td>
+                        <td>
+                            <a asp-action="UpdateCartItem" asp-route-productId="@item.ProductId"
+                               class="btn btn-primary">Update</a>
+                            <a asp-action="RemoveCartItem" asp-route-productId="@item.ProductId"
+                               class="btn btn-danger">Remove</a>
+                        </td>
+                    </tr>
                 }
             </tbody>
         </table>
@@ -50,3 +50,13 @@
         <p>No items in the cart yet.</p>
     }
 </div>
+
+@section Scripts {
+    <script>
+        var cartTableHead = document.getElementById("cartTableHead");
+
+        if (@Model.Count == 0) {
+            cartTableHead.style.display = "none";
+        }
+    </script>
+}
