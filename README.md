@@ -1,6 +1,6 @@
+
 # Welcome to 24 Hours
 ## :sparkles: 24 Hours is an E-Commerce website :sparkles:
-
 
 
 ╭━━━┳╮╱╭╮╱╱╭╮╱╭┳━━━┳╮╱╭┳━━━┳━━━╮
@@ -9,6 +9,7 @@
 ╭━╯╭┻━━╮┣━━┫╭━╮┃┃╱┃┃┃╱┃┃╭╮╭┻━━╮┃
 ┃┃╰━╮╱╱┃┣━━┫┃╱┃┃╰━╯┃╰━╯┃┃┃╰┫╰━╯┃
 ╰━━━╯╱╱╰╯╱╱╰╯╱╰┻━━━┻━━━┻╯╰━┻━━━╯
+
 
 
 ### Table of Contents
@@ -27,11 +28,11 @@
 
 <br>
 
-### Introduction
+### Introduction <a name="introduction"></a>
 
 24 Hours is a small-scale e-commerce platform built with ASP.NET Core 7.0 using C# and SQL Server as the database. This project utilizes Razor Pages for the frontend views, providing users with an intuitive and seamless shopping experience.
 
-#### Features
+#### Features <a name="features"></a>
 
 Product Search: 
 
