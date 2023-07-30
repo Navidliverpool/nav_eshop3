@@ -1,7 +1,6 @@
 # Welcome to 24 Hours
 ## :sparkles: 24 Hours is an E-Commerce website :sparkles:
 
-<p>
 
 
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -17,7 +16,6 @@
 
 
 
-</p>
 
 
 ### Table of Contents
