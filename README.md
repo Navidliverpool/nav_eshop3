@@ -15,15 +15,15 @@
 
 #### [Introduction](#introduction)
 
-#### Features
+#### [Features](#features)
 
-#### Prerequisites
+#### [Prerequisites](#prerequisites)
 
-#### Installation
+#### [Installation](#installation)
 
-#### Usage
+#### [Usage](#usage)
 
-#### Contributing
+#### [Contributing](#contributing)
 
 #### Introduction
 
