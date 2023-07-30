@@ -13,9 +13,7 @@
 
 ### Table of Contents
 
-#### [Introduction](#introduction)
-<br>
-#### [Features](#features)
+#### [Introduction](#introduction) <br> #### [Features](#features)
 <br>
 #### [Prerequisites](#prerequisites)
 
