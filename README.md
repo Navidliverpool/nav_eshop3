@@ -1,5 +1,5 @@
-# Welcome to 24 Hours.
-## 24 Hours is an E-Commerce website.
+# Welcome to 24 Hours
+## :sparkles: 24 Hours is an E-Commerce website :sparkles:
 
 ### Table of Contents
 
