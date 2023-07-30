@@ -2,7 +2,9 @@
 ## 24 Hours is an E-Commerce website.
 
 Table of Contents
+
 Introduction
+
 Features
 Prerequisites
 Installation
