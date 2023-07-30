@@ -10,7 +10,7 @@ Usage
 Contributing
 License
 Introduction
-MyECommerce is a small-scale e-commerce platform built with ASP.NET Core 7.0 using C# and SQL Server as the database. This project utilizes Razor Pages for the frontend views, providing users with an intuitive and seamless shopping experience. Whether you are a customer looking for your favorite products or a seller willing to showcase your merchandise, MyECommerce has got you covered!
+24 Hours is a small-scale e-commerce platform built with ASP.NET Core 7.0 using C# and SQL Server as the database. This project utilizes Razor Pages for the frontend views, providing users with an intuitive and seamless shopping experience.
 
 Features
 Product Search: Easily search for products by name, category, or any relevant keywords, allowing you to find your desired items quickly.
@@ -21,9 +21,9 @@ Product Listing and Selling: Sellers can add new products, update existing ones,
 
 Shopping Cart: Conveniently add products to your shopping cart, review your items, and proceed to checkout for a seamless buying experience.
 
-Order Management: Keep track of your orders and view order history to ensure a smooth transaction process.
+Order Management: Keep track of your orders and view order history to ensure a smooth transaction process. ### (under development)
 
-Secure Transactions: MyECommerce prioritizes the security of your data, employing encryption and best practices to protect sensitive information.
+Secure Transactions: MyECommerce prioritizes the security of your data, employing encryption and best practices to protect sensitive information. ### (planned)
 
 Prerequisites
 Before setting up MyECommerce, ensure you have the following prerequisites:
