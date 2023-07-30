@@ -25,7 +25,7 @@
 
 #### [Contributing](#contributing)
 
-#### Introduction
+### Introduction
 
 24 Hours is a small-scale e-commerce platform built with ASP.NET Core 7.0 using C# and SQL Server as the database. This project utilizes Razor Pages for the frontend views, providing users with an intuitive and seamless shopping experience.
 
