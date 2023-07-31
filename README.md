@@ -68,7 +68,7 @@ SQL Server (Express or LocalDB)
 
 A modern web browser
 
-Installation
+### Installation <a name="installation"></a>
 
 Clone the MyECommerce repository to your local machine:
 
