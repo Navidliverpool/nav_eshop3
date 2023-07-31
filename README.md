@@ -56,6 +56,9 @@ Sellers can add new products, update existing ones, and manage their inventory e
 
 Conveniently add products to your shopping cart, review your items, and proceed to checkout for a seamless buying experience. `under development`
 
+- Nivo Slider-Home Page:
+  Showcase your products with the elegant Nivo Slider, providing a visually appealing and interactive product display. `completed`
+
   - Order Management: 
 
 Keep track of your orders and view order history to ensure a smooth transaction process. `under development`
@@ -70,7 +73,7 @@ MyECommerce prioritizes the security of your data, employing encryption and best
 
   - Before setting up MyECommerce, ensure you have the following prerequisites:
 
-     - .NET Core SDK 7.0 or later
+     - .NET Core SDK 7.0
 
      - SQL Server (Express or LocalDB)
 
@@ -80,7 +83,7 @@ MyECommerce prioritizes the security of your data, employing encryption and best
 
 ### Installation 
 
-  - Clone the MyECommerce repository to your local machine:
+  - Clone the 24 Hours repository to your local machine:
 
 bash
 ```
@@ -133,4 +136,6 @@ Sellers can log in to manage their products, update inventory, and track sales.
 
 ### Contributing
 
-We welcome contributions to enhance the functionality and usability of MyECommerce. If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request. Please follow the guidelines outlined in the CONTRIBUTING.md file.
+I welcome contributions to enhance the functionality and usability of 24 Hours. If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request. 
+
+## LETS CODE TOGATHER :smile:
