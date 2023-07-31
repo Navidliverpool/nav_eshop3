@@ -29,11 +29,10 @@
 <br>
 
 ### Introduction 
-<a name="introduction"></a>
 
 24 Hours is a small-scale e-commerce platform built with ASP.NET Core 7.0 using C# and SQL Server as the database. This project utilizes Razor Pages for the frontend views, providing users with an intuitive and seamless shopping experience.
 
-####- Features
+#### Features
 
   - Product Search: 
 
@@ -43,49 +42,49 @@ Easily search for products by name, category, or any relevant keywords, allowing
 
 Create a new account or log in to the platform using your credentials, enabling you to track your orders, manage your profile, and enjoy personalized features. `completed`
 
-Product Listing and Selling: 
+  - Product Listing and Selling: 
 
 Sellers can add new products, update existing ones, and manage their inventory effectively. Customers can browse through the diverse range of products available for purchase. `completed`
 
-Shopping Cart: 
+  - Shopping Cart: 
 
 Conveniently add products to your shopping cart, review your items, and proceed to checkout for a seamless buying experience. `under development`
 
-Order Management: 
+  - Order Management: 
 
 Keep track of your orders and view order history to ensure a smooth transaction process. `under development`
 
-Secure Transactions: 
+  - Secure Transactions: 
 
 MyECommerce prioritizes the security of your data, employing encryption and best practices to protect sensitive information. `planned`
 
 #### Prerequisites 
 
-Before setting up MyECommerce, ensure you have the following prerequisites:
+  - Before setting up MyECommerce, ensure you have the following prerequisites:
 
-.NET Core SDK 7.0 or later
+     - .NET Core SDK 7.0 or later
 
-SQL Server (Express or LocalDB)
+     - SQL Server (Express or LocalDB)
 
-A modern web browser
+     - A modern web browser
 
 ### Installation 
 
-Clone the MyECommerce repository to your local machine:
+  - Clone the MyECommerce repository to your local machine:
 
 bash
 ```
 git clone https://github.com/Navidliverpool/nav_eshop3.git
 ```
 
-Navigate to the project directory:
+  - Navigate to the project directory:
 
 bash
 ```
 cd nav_eshop3
 ```
 
-Update the connection string in the appsettings.json file with your SQL Server database credentials:
+  - Update the connection string in the appsettings.json file with your SQL Server database credentials:
 
 json
 ```
@@ -94,7 +93,7 @@ json
 }
 ```
 
-Apply the database migrations:
+  - Apply the database migrations:
 
 sql
 ```
@@ -102,7 +101,7 @@ dotnet ef database update
 ```
 ### Usage
 
-Build and run the application:
+  - Build and run the application:
 
 arduino
 ```
