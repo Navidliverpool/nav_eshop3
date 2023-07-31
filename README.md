@@ -1,5 +1,7 @@
-
+<div style="text-align: center;">
 # Welcome to 24 Hours
+</div>
+
 ## :sparkles: 24 Hours is an E-Commerce website :sparkles:
 
 
