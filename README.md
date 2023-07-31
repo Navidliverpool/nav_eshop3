@@ -119,13 +119,13 @@ dotnet run
 
 <br>
 
-<small>Open your web browser and navigate to http://localhost:5000 to access the MyECommerce platform.
+<small>Open your web browser and navigate to http://localhost:5000 to access the MyECommerce platform.</small>
 
-Register a new account or log in with your existing credentials.
+<small>Register a new account or log in with your existing credentials.</small>
 
-Browse through the available products, add items to your shopping cart, and proceed to checkout to place an order.
+<small>Browse through the available products, add items to your shopping cart, and proceed to checkout to place an order.</small>
 
-Sellers can log in to manage their products, update inventory, and track sales.</small>
+<small>Sellers can log in to manage their products, update inventory, and track sales.</small>
 
 ### Contributing
 
