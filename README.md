@@ -160,6 +160,7 @@ I welcome contributions to enhance the functionality and usability of 24 Hours. 
 _
 
 ### Support 📧🆘
+
 ```
 navidkhodaveisi@gmail.com
 ```
