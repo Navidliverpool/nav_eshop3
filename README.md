@@ -85,6 +85,10 @@ MyECommerce prioritizes the security of your data, employing encryption and best
 
 <br>
 
+![screencapture-localhost-7188-Products-2023-07-31-01_55_19](https://github.com/Navidliverpool/nav_eshop3/assets/71192720/cad28539-643f-4b16-adc4-4f778aad9790
+
+<br>
+
 ### Installation 
 
   - Clone the 24 Hours repository to your local machine:
