@@ -108,6 +108,7 @@ arduino
 dotnet run
 ```
 
+
 Open your web browser and navigate to http://localhost:5000 to access the MyECommerce platform.
 
 Register a new account or log in with your existing credentials.
