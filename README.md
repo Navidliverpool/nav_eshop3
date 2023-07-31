@@ -81,7 +81,7 @@ MyECommerce prioritizes the security of your data, employing encryption and best
 
 <br>
 
-![screencapture-localhost-7188-Products-2023-07-31-01_55_19](https://github.com/Navidliverpool/nav_eshop3/assets/71192720/cad28539-643f-4b16-adc4-4f778aad9790)
+![screencapture-localhost-7188-Products-Create-2023-07-30-21_41_18](https://github.com/Navidliverpool/nav_eshop3/assets/71192720/9a97edcd-376c-4985-b050-6e9530e4733c)
 
 <br>
 
