@@ -28,11 +28,13 @@
 
 <br>
 
-### Introduction <a name="introduction"></a>
+### Introduction 
+<a name="introduction"></a>
 
 24 Hours is a small-scale e-commerce platform built with ASP.NET Core 7.0 using C# and SQL Server as the database. This project utilizes Razor Pages for the frontend views, providing users with an intuitive and seamless shopping experience.
 
-#### Features <a name="features"></a>
+#### Features 
+<a name="features"></a>
 
 Product Search: 
 
@@ -58,7 +60,8 @@ Secure Transactions:
 
 MyECommerce prioritizes the security of your data, employing encryption and best practices to protect sensitive information. ### (planned)
 
-#### Prerequisites
+#### Prerequisites 
+<a name="prerequisites"></a>
 
 Before setting up MyECommerce, ensure you have the following prerequisites:
 
@@ -68,7 +71,8 @@ SQL Server (Express or LocalDB)
 
 A modern web browser
 
-### Installation <a name="installation"></a>
+### Installation 
+<a name="installation"></a>
 
 Clone the MyECommerce repository to your local machine:
 
