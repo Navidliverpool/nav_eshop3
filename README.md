@@ -10,7 +10,7 @@
 ┃┃╰━╮╱╱┃┣━━┫┃╱┃┃╰━╯┃╰━╯┃┃┃╰┫╰━╯┃
 ╰━━━╯╱╱╰╯╱╱╰╯╱╰┻━━━┻━━━┻╯╰━┻━━━╯
 
-```to```
+
 
 ### Table of Contents
 
@@ -53,13 +53,11 @@ Conveniently add products to your shopping cart, review your items, and proceed 
 
 Order Management: 
 
-Keep track of your orders and view order history to ensure a smooth transaction process. 
-#### (under development)
+Keep track of your orders and view order history to ensure a smooth transaction process. `under development`
 
 Secure Transactions: 
 
-MyECommerce prioritizes the security of your data, employing encryption and best practices to protect sensitive information. 
-#### (planned)
+MyECommerce prioritizes the security of your data, employing encryption and best practices to protect sensitive information. `planned`
 
 #### Prerequisites 
 
