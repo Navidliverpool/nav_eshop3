@@ -37,23 +37,23 @@
 
 Product Search: 
 
-Easily search for products by name, category, or any relevant keywords, allowing you to find your desired items quickly.
+Easily search for products by name, category, or any relevant keywords, allowing you to find your desired items quickly. `completed`
 
 User Registration and Login: 
 
-Create a new account or log in to the platform using your credentials, enabling you to track your orders, manage your profile, and enjoy personalized features.
+Create a new account or log in to the platform using your credentials, enabling you to track your orders, manage your profile, and enjoy personalized features. `completed`
 
 Product Listing and Selling: 
 
-Sellers can add new products, update existing ones, and manage their inventory effectively. Customers can browse through the diverse range of products available for purchase.
+Sellers can add new products, update existing ones, and manage their inventory effectively. Customers can browse through the diverse range of products available for purchase. `completed`
 
 Shopping Cart: 
 
-Conveniently add products to your shopping cart, review your items, and proceed to checkout for a seamless buying experience.
+Conveniently add products to your shopping cart, review your items, and proceed to checkout for a seamless buying experience. `under development` `%50`
 
 Order Management: 
 
-Keep track of your orders and view order history to ensure a smooth transaction process. `under development`
+Keep track of your orders and view order history to ensure a smooth transaction process. `under development` `%10`
 
 Secure Transactions: 
 
