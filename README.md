@@ -12,10 +12,6 @@
 
 <br>
 
-![screencapture-localhost-7188-2023-07-30-21_39_50](https://github.com/Navidliverpool/nav_eshop3/assets/71192720/5a04bc9d-6b25-4aa8-9ce8-9b09867b7637)
-
-<br>
-
 ### Table of Contents
 
 #### [Introduction](#Introduction) 
@@ -69,7 +65,7 @@ MyECommerce prioritizes the security of your data, employing encryption and best
 
 <br>
 
-![screencapture-localhost-7188-Products-Create-2023-07-30-21_41_18](https://github.com/Navidliverpool/nav_eshop3/assets/71192720/ab1f34a7-9ec8-4b64-8a7d-1ed1c070dde4)
+![screencapture-localhost-7188-2023-07-30-21_39_50](https://github.com/Navidliverpool/nav_eshop3/assets/71192720/5a04bc9d-6b25-4aa8-9ce8-9b09867b7637)
 
 <br>
 
