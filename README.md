@@ -95,7 +95,7 @@ Keep track of your orders and view order history to ensure a smooth transaction 
 
 <br>
 
-Please visit the website to explore More about it.
+🔗 Please visit the website to explore More about it.
 
 <br>
 
