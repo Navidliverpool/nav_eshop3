@@ -119,7 +119,7 @@ dotnet run
 
 <br>
 
-<font size="2">Open your web browser and navigate to http://localhost:5000 to access the MyECommerce platform.</font>
+<p style="font-size: 12px;">Open your web browser and navigate to http://localhost:5000 to access the MyECommerce platform.</p>
 
 <small>Register a new account or log in with your existing credentials.</small>
 
