@@ -57,7 +57,7 @@ Conveniently add products to your shopping cart, review your items, and proceed 
 Showcase your products with the elegant Nivo Slider, providing a visually appealing and interactive product display. `completed`
 
   - Admin Section:
-  - 
+    
 A powerful and secure admin section for managing the platform. Administrators can oversee users, products, orders, and other crucial aspects of the system to ensure efficient and effective operation. `planned`
 
   - Order Management: 
