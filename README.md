@@ -152,4 +152,4 @@ Sellers can log in to manage their products, update inventory, and track sales.
 
 I welcome contributions to enhance the functionality and usability of 24 Hours. If you find any bugs or have suggestions for improvements, opening an issue or submitting a pull request would be appreciated. 
 
-## LETS CODE TOGATHER 
+## LETS CODE TOGATHER 💻
