@@ -28,13 +28,13 @@
 
 <br>
 
-### Introduction 
+### Introduction 📝📚
 
 24 Hours is a small-scale e-commerce platform built with ASP.NET Core 7.0 using C# and SQL Server as the database. This project utilizes Razor Pages for the frontend views, providing users with an intuitive and seamless shopping experience.
 
 <br>
 
-#### Features
+#### Features ⭐️🎯
 
   - 🔍 Product Search: 
 
@@ -75,7 +75,7 @@ Keep track of your orders and view order history to ensure a smooth transaction 
 
 <br>
 
-#### Prerequisites 
+#### Prerequisites 📅🔖
 
   - Before setting up 24 Hours, ensure you have the following prerequisites:
 
@@ -99,7 +99,7 @@ Please visit the website to explore More about it.
 
 <br>
 
-### Installation 
+### Installation 🛠️📦
 
   - Clone the 24 Hours repository to your local machine:
 
@@ -133,7 +133,7 @@ dotnet ef database update
 
 <br>
 
-### Usage
+### Usage 🚀🎬
 
   - Build and run the application:
 
@@ -155,5 +155,11 @@ Sellers can log in to manage their products, update inventory, and track sales.
 ### Contributing
 
 I welcome contributions to enhance the functionality and usability of 24 Hours. If you find any bugs or have suggestions for improvements, opening an issue or submitting a pull request would be appreciated. 
+
+### License 📜🔒
+_
+
+### Support 📧🆘
+_
 
 ## LETS CODE TOGATHER 👩‍💻👨‍💻
