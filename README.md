@@ -33,13 +33,13 @@
 
 24 Hours is a small-scale e-commerce platform built with ASP.NET Core 7.0 using C# and SQL Server as the database. This project utilizes Razor Pages for the frontend views, providing users with an intuitive and seamless shopping experience.
 
-#### Features
+####- Features
 
-Product Search: 
+  - Product Search: 
 
 Easily search for products by name, category, or any relevant keywords, allowing you to find your desired items quickly. `completed`
 
-User Registration and Login: 
+  - User Registration and Login: 
 
 Create a new account or log in to the platform using your credentials, enabling you to track your orders, manage your profile, and enjoy personalized features. `completed`
 
@@ -97,16 +97,17 @@ json
 Apply the database migrations:
 
 sql
-
+```
 dotnet ef database update
-
-Usage
+```
+### Usage
 
 Build and run the application:
 
 arduino
-
+```
 dotnet run
+```
 
 Open your web browser and navigate to http://localhost:5000 to access the MyECommerce platform.
 
