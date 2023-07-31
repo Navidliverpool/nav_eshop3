@@ -73,9 +73,9 @@ A modern web browser
 
 Clone the MyECommerce repository to your local machine:
 
-bash
+`bash
 
-git clone https://github.com/Navidliverpool/nav_eshop3.git
+git clone https://github.com/Navidliverpool/nav_eshop3.git`
 
 Navigate to the project directory:
 
