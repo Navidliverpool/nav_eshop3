@@ -81,8 +81,9 @@ git clone https://github.com/Navidliverpool/nav_eshop3.git
 Navigate to the project directory:
 
 bash
-
+```
 cd nav_eshop3
+```
 
 Update the connection string in the appsettings.json file with your SQL Server database credentials:
 
