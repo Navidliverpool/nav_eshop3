@@ -49,11 +49,11 @@ Sellers can add new products, update existing ones, and manage their inventory e
 
 Shopping Cart: 
 
-Conveniently add products to your shopping cart, review your items, and proceed to checkout for a seamless buying experience. `under development` `%50`
+Conveniently add products to your shopping cart, review your items, and proceed to checkout for a seamless buying experience. `under development`
 
 Order Management: 
 
-Keep track of your orders and view order history to ensure a smooth transaction process. `under development` `%10`
+Keep track of your orders and view order history to ensure a smooth transaction process. `under development`
 
 Secure Transactions: 
 
