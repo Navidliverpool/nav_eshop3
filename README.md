@@ -14,11 +14,11 @@
 
 ### Table of Contents
 
-#### [Introduction](#introduction) 
+#### [Introduction](#Introduction) 
 
-#### [Features](#features)
+#### [Features](#Features)
 
-#### [Prerequisites](#prerequisites)
+#### [Prerequisites](#Prerequisites)
 
 #### [Installation](#installation)
 
