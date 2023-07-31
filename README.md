@@ -36,37 +36,37 @@
 
 #### Features
 
-  - Product Search: 
+  - 🔍 Product Search: 
 
 Easily search for products by name, category, or any relevant keywords, allowing you to find your desired items quickly. `completed`
 
-  - User Registration and Login: 
+  - 📝🔑 User Registration and Login: 
 
 Create a new account or log in to the platform using your credentials, enabling you to track your orders, manage your profile, and enjoy personalized features. `completed`
 
-  - Product Listing and Selling: 
+  - 🛍️💼 Product Listing and Selling: 
 
 Sellers can add new products, update existing ones, and manage their inventory effectively. Customers can browse through the diverse range of products available for purchase. `completed`
 
-  - Shopping Cart: 
+  - 🛒 Shopping Cart: 
 
 Conveniently add products to your shopping cart, review your items, and proceed to checkout for a seamless buying experience. `under development`
 
-  - Nivo Slider-Home Page:
+  - 🖼️ Nivo Slider-Home Page:
   
 Showcase your products with the elegant Nivo Slider, providing a visually appealing and interactive product display. `completed`
 
-  - Admin:
+  - 👩‍💼👨‍💼 Admin:
     
 A powerful and secure admin section for managing the platform. Administrators can oversee users, products, orders, and other crucial aspects of the system to ensure efficient and effective operation. `planned`
 
-  - Order Management: 
+  - 📦📋 Order Management: 
 
 Keep track of your orders and view order history to ensure a smooth transaction process. `under development`
 
-  - Secure Transactions: 
+  - 🔒💳 Secure Transactions: 
 
-MyECommerce prioritizes the security of your data, employing encryption and best practices to protect sensitive information. `planned`
+24 Hours prioritizes the security of your data, employing encryption and best practices to protect sensitive information. `planned`
 
 <br>
 
@@ -77,7 +77,7 @@ MyECommerce prioritizes the security of your data, employing encryption and best
 
 #### Prerequisites 
 
-  - Before setting up MyECommerce, ensure you have the following prerequisites:
+  - Before setting up 24 Hours, ensure you have the following prerequisites:
 
      - .NET Core SDK 7.0
 
@@ -144,7 +144,7 @@ dotnet run
 
 <br>
 
-Open your web browser and navigate to http://localhost:5000 to access the MyECommerce platform.
+Open your web browser and navigate to http://localhost:5000 to access the 24 Hours platform.
 
 Register a new account or log in with your existing credentials.
 
