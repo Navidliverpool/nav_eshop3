@@ -73,9 +73,11 @@ A modern web browser
 
 Clone the MyECommerce repository to your local machine:
 
-`bash
+```
+bash
 
-git clone https://github.com/Navidliverpool/nav_eshop3.git`
+git clone https://github.com/Navidliverpool/nav_eshop3.git
+```
 
 Navigate to the project directory:
 
@@ -85,11 +87,13 @@ cd nav_eshop3
 
 Update the connection string in the appsettings.json file with your SQL Server database credentials:
 
+```
 json
 
 "ConnectionStrings": {
   "DefaultConnection": "Server=<your_server_name>;Database=MyECommerceDb;User=<your_db_user>;Password=<your_db_password>;"
 }
+```
 
 Apply the database migrations:
 
