@@ -164,5 +164,3 @@ _
 ```
 navidkhodaveisi2@gmail.com
 ```
-
-## LETS CODE TOGATHER 👩‍💻👨‍💻
