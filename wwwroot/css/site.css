@@ -24,3 +24,10 @@ body {
 * {
     font-family: 'Gruppo', sans-serif;
 }
+
+/* Container styling */
+/*.container {
+    max-width: 1200px;*/ /* Adjust the max width as needed */
+    /*margin: 0 auto;
+    padding: 40px;*/ /* Adjust the padding as needed */
+/*}*/

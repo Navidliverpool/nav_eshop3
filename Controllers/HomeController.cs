@@ -21,7 +21,8 @@ namespace nav_eshop3.Controllers
         public IActionResult Index()
         {
             var homeVM = new HomeVM();
-
+            var allCategory = _context.Categories.ToList();
+            homeVM.AllCategories = allCategory;
             return View(homeVM);
         }
 
