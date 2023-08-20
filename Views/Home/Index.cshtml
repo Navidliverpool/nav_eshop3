@@ -117,7 +117,7 @@
             display: inline-block;
             margin: 50px;
             margin-top: 10px;
-            
+            font-size: 23px;
         }
 
         .category-divider-top {
@@ -133,7 +133,6 @@
             margin-top: 0px; /* Adjust the spacing as needed */
             margin-left: 100px;
         }
-
     </style>
 </head>
 <body>
@@ -150,10 +149,13 @@
         <h2 class="message2">Discover a World of New and Used Products!</h2>
         <div class="category-divider-top"></div>
 
-        @foreach(var i in Model.AllCategories)
+        @foreach (var i in Model.AllCategories)
         {
-            <h2 class="in-row"> @i.Name</h2>
+            <li class="in-row">
+                <a asp-area="" asp-controller="Categories" asp-action="Index" asp-route-id="@i.Name" style="text-decoration: none;">@i.Name</a>
+            </li>
         }
+
         <div class="category-divider-bottom"></div>
 
         <img src="~/images/2560x1600-5393915-sign-light-neon-fluorescent-open-urban-city-store-shop-outdoors-type-typography-design-red-blue-orange-24hr-public-domain-images.jpg" alt="Main Photo" class="main-photo">

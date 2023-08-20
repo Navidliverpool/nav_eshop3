@@ -6,5 +6,6 @@ namespace nav_eshop3.ViewModels
     {
         public string? Keyword { get; set; }
         public List<Category> AllCategories { get; set; }
+        public List<Product> FilterProductsByCategories { get; set; }
     }
 }
